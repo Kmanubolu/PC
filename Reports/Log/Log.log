@@ -1,0 +1,51 @@
+INFO - 19-04-2017 15:04:34 - Common - RunTest - -----------------STARTED RUNNING TESTNG METHOD-----------------
+INFO - 19-04-2017 15:04:36 - Common - RunTest - -----------------STARTED RUNNING TEST CASE CreateAccount_1 EXECUTION-----------------
+INFO - 19-04-2017 15:04:36 - Common - RunTest - ---------------Started Executing Login function---------------
+INFO - 19-04-2017 15:04:36 - Common - OpenApp - Webdriver with Head Automation started
+INFO - 19-04-2017 15:04:40 - Common - OpenApp - 'CH' driver started
+INFO - 19-04-2017 15:04:40 - Common - OpenApp - Execution starting in 'QA' environment
+INFO - 19-04-2017 15:04:40 - Common - OpenApp - Browser maximized
+INFO - 19-04-2017 15:05:13 - Common - OpenApp - Execution starting in 'QA' environment and url 'http://in-hyd-insudem2:5180/pc/PolicyCenter.do'
+INFO - 19-04-2017 15:05:13 - Common - OpenApp - Application Opened Successfully
+INFO - 19-04-2017 15:05:14 - Common - SafeAction - Value entered 'su' in 'UserName' field and element 'By.id: Login:LoginScreen:LoginDV:username-inputEl'
+INFO - 19-04-2017 15:05:16 - Common - SafeAction - Clicked on 'Login' element or button or link and element 'By.id: Login:LoginScreen:LoginDV:submit-btnInnerEl'
+INFO - 19-04-2017 15:05:19 - Login - SCRLogin - Application Loggedin Successfully
+INFO - 19-04-2017 15:05:19 - Common - RunTest - ---------------Completed Executing Login function---------------
+INFO - 19-04-2017 15:05:19 - Common - RunTest - ---------------Started Executing SearchNewAccount function---------------
+INFO - 19-04-2017 15:05:19 - Common - SafeAction - Clicked on 'DeskTopAction' element or button or link and element 'By.id: Desktop:DesktopMenuActions-btnInnerEl'
+INFO - 19-04-2017 15:05:21 - Common - SafeAction - Clicked on 'DeskTopNewAccount' element or button or link and element 'By.id: Desktop:DesktopMenuActions:DesktopMenuActions_Create:DesktopMenuActions_NewAccount-textEl'
+INFO - 19-04-2017 15:05:22 - Common - SafeAction - Value entered 'Guidewire Policy Center' in 'CompanyName' field and element 'By.id: NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalContactNameInputSet:Name-inputEl'
+INFO - 19-04-2017 15:05:23 - Common - SafeAction - Clicked on 'AccountInfoSearch' element or button or link and element 'By.id: NewAccount:NewAccountScreen:NewAccountSearchDV:SearchAndResetInputSet:SearchLinksInputSet:Search'
+INFO - 19-04-2017 15:05:25 - Common - SafeAction - Clicked on 'AccountInfoCreateNewAccount' element or button or link and element 'By.id: NewAccount:NewAccountScreen:NewAccountButton-btnInnerEl'
+INFO - 19-04-2017 15:05:26 - Common - SafeAction - Clicked on 'CreateNewAccountForPerson' element or button or link and element 'By.id: NewAccount:NewAccountScreen:NewAccountButton:NewAccount_Person-textEl'
+INFO - 19-04-2017 15:05:27 - SearchNewAccount - SCRSearchNewAccount - System displayed Create New Account Page
+INFO - 19-04-2017 15:05:27 - Common - RunTest - ---------------Completed Executing SearchNewAccount function---------------
+INFO - 19-04-2017 15:05:27 - Common - RunTest - ---------------Started Executing CreateAccount function---------------
+INFO - 19-04-2017 15:05:27 - Common - SafeAction - Value entered 'Guidewire' in 'FirstName' field and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:GlobalPersonNameInputSet:FirstName-inputEl'
+INFO - 19-04-2017 15:05:29 - Common - SafeAction - Value entered 'Policy Center' in 'LastName' field and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:GlobalPersonNameInputSet:LastName-inputEl'
+INFO - 19-04-2017 15:05:30 - Common - SafeAction - Value entered '246 Buckland Hills Drive' in 'Address1' field and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1-inputEl'
+INFO - 19-04-2017 15:05:31 - Common - SafeAction - Clicked on 'City' element or button or link and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-inputEl'
+INFO - 19-04-2017 15:05:34 - Common - SafeAction - Value entered 'MANCHESTER' in 'City' field and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-inputEl'
+INFO - 19-04-2017 15:05:36 - Common - SafeAction - Value available 'Connecticut' in 'State' listbox and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-inputEl'
+INFO - 19-04-2017 15:05:37 - Common - SafeAction - Clicked on 'ZipCode' element or button or link and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:PostalCode-inputEl'
+INFO - 19-04-2017 15:05:40 - Common - SafeAction - Value entered '06040' in 'ZipCode' field and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:PostalCode-inputEl'
+INFO - 19-04-2017 15:05:41 - Common - SafeAction - Value available 'Billing' in 'AddressType' listbox and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:AddressType-inputEl'
+INFO - 19-04-2017 15:05:43 - Common - SafeAction - Clicked on 'OrgSearch' element or button or link and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:ProducerSelectionInputSet:Producer:SelectOrganization'
+INFO - 19-04-2017 15:05:44 - Common - SafeAction - Value entered 'ACV Property Insurance' in 'OrganisationName' field and element 'By.id: OrganizationSearchPopup:OrganizationSearchPopupScreen:OrganizationSearchDV:GlobalContactNameInputSet:Name-inputEl'
+INFO - 19-04-2017 15:05:45 - Common - SafeAction - Clicked on 'SearchButton' element or button or link and element 'By.id: OrganizationSearchPopup:OrganizationSearchPopupScreen:OrganizationSearchDV:SearchAndResetInputSet:SearchLinksInputSet:Search'
+INFO - 19-04-2017 15:05:46 - Common - SafeAction - Clicked on 'SearchResult' element or button or link and element 'By.id: OrganizationSearchPopup:OrganizationSearchPopupScreen:OrganizationSearchResultsLV:0:_Select'
+INFO - 19-04-2017 15:05:48 - Common - SafeAction - Value available '301-008578 ACV Property Insurance' in 'ProducerCode' listbox and element 'By.id: CreateAccount:CreateAccountScreen:CreateAccountDV:ProducerSelectionInputSet:ProducerCode-inputEl'
+INFO - 19-04-2017 15:05:49 - Common - SafeAction - Clicked on 'Update' element or button or link and element 'By.id: CreateAccount:CreateAccountScreen:Update-btnInnerEl'
+INFO - 19-04-2017 15:05:52 - CreateAccount - SCRCreateAccount - System displayed Account Summary Page with Account Number: 1356504282
+INFO - 19-04-2017 15:05:52 - Common - RunTest - ---------------Completed Executing CreateAccount function---------------
+INFO - 19-04-2017 15:05:52 - Common - RunTest - ---------------Started Executing EditAccount function---------------
+INFO - 19-04-2017 15:05:53 - Common - SafeAction - Clicked on 'EdtButton' element or button or link and element 'By.id: AccountFile_Summary:AccountFile_SummaryScreen:EditAccount-btnInnerEl'
+INFO - 19-04-2017 15:05:55 - Common - SafeAction - Clicked on 'EditUpdate' element or button or link and element 'By.id: EditAccountPopup:EditAccountScreen:Update-btnInnerEl'
+INFO - 19-04-2017 15:05:56 - Common - RunTest - ---------------Completed Executing EditAccount function---------------
+INFO - 19-04-2017 15:05:56 - Common - RunTest - ---------------Started Executing LogOut function---------------
+INFO - 19-04-2017 15:05:56 - Common - SafeAction - Clicked on 'Preferences' element or button or link and element 'By.id: :TabLinkMenuButton-btnIconEl'
+INFO - 19-04-2017 15:05:57 - Common - SafeAction - Clicked on 'LogOut' element or button or link and element 'By.id: TabBar:LogoutTabBarLink-textEl'
+INFO - 19-04-2017 15:06:00 - Common - Terminate - WebDriver Quit
+INFO - 19-04-2017 15:06:00 - Common - RunTest - ---------------Completed Executing LogOut function---------------
+INFO - 19-04-2017 15:06:00 - Common - RunTest - -----------------ENDED RUNNING TEST CASE CreateAccount_1 EXECUTION-----------------
+INFO - 19-04-2017 15:06:00 - Common - Terminate - WebDriver Quit
